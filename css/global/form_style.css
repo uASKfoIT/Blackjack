@@ -1,0 +1,23 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*input elements*/
+.small-wide-input{
+    height: 2rem;
+    width: 10rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center; 
+}
+
+/*hidden submit*/
+.hidden-submit{
+    display: none;
+}

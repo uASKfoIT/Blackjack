@@ -1,0 +1,59 @@
+/*Navigation Buttons*/
+.small-nav-button:hover{
+    opacity: 70%;
+}
+
+/*Small Wide Wood*/
+.small-wide-wood-button{
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px #000000;
+    cursor: pointer;
+}
+
+.small-wide-wood-button__color1{
+    height: 0.5rem;
+    width: inherit;
+    background: #8B5E3C; 
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.small-wide-wood-button__color2{
+    height: 2rem;
+    width: inherit;
+    background: #C69C6D;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+/*Small Wood*/
+.small-wood-button{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 0.25rem;
+    box-shadow: 2px 2px 5px #000000;
+    cursor: pointer;
+}
+.small-wood-button__color1{
+    height: 0.5rem;
+    width: inherit;
+    background: #8B5E3C; 
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.small-wood-button__color2{
+    height: 2rem;
+    width: inherit;
+    background: #C69C6D;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}

@@ -1,0 +1,23 @@
+/*Game Dashboard*/
+.dashboard{
+    height: 55rem;
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background-color: rgb(5, 91, 31);
+    border-radius: 0.2rem;
+    box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+/*Background color*/
+body{
+    background-color: black;
+}
+
+/*Display Off*/
+.off{
+    display: none;
+}
