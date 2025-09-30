@@ -1,0 +1,188 @@
+
+/*Game Stats*/
+.game-stats{
+    height: 4rem;
+    width: 80rem;
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+.balance-container{
+    height: inherit;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scoreboard-container{
+    height: inherit;
+    width: 20rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.player-score{
+    height: inherit;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seperator{
+    height: inherit;
+    width: 0.1rem;
+    background-color: white;
+}
+
+/*True Count*/
+.true-count-container{
+    height: 2rem;
+    width: 10rem;
+    border-bottom: 1px solid white;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 80%;
+    transform: translateX(-80%);
+    cursor: pointer;
+}
+
+/*game board*/
+.show-game-board{
+    height: 43rem;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.player-deck{
+    height: 10rem;
+    width: 20rem;
+    position: relative;
+}
+.single-card{
+    height: 10rem;
+    width: 8rem;
+    position: absolute;
+    border-radius: 0.5rem;
+}
+.single-card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: fill;
+}
+.shoe-deck{
+    height: 10rem;
+    width: 8rem;
+    margin-left: 60rem;
+}
+.shoe-deck img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.interaction-menu{
+    height: 8rem;
+    width: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+/*betting*/
+.show-betSpot{
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.betSpot-image-container{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.betSpot-image-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.betSpot-text-container{
+    height: 2rem;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*game results*/
+.show-game-results{
+    height: 20rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.15rem solid rgb(177, 177, 177);
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    margin: 2.5rem;
+}
+
+.game-results-menu{
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*betting chips*/
+.show-betting-chips{
+    height: 5rem;
+    width: 35rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.active-chip{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.active-chip img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.active-chip img:hover{
+    opacity: 80%;
+}
+
+.unactive-chip{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+.unactive-chip img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 10%;
+}

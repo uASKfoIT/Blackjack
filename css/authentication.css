@@ -1,0 +1,38 @@
+
+/*Fields Elements*/
+.fields-container{
+    height: 30rem;
+    width: 20rem;
+    border: 0.2rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+    box-shadow:1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+/*Link Label*/
+.link-label{
+    margin-top: 2rem;
+    border-bottom: 1px solid rgb(0, 162, 255);
+    cursor: pointer;
+}
+
+/*Messages*/
+.status-message{
+    margin-top: 1rem;
+}
+
+.show-message{
+    height: 20rem;
+    width: 30rem;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+    box-shadow:4px 4px 4px rgba(0, 0, 0, 0.5);
+}

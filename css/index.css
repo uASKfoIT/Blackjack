@@ -1,0 +1,71 @@
+/*title*/
+.title{
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+/*Game Sprite*/
+.game-sprite{
+    height: 20rem;
+    width: 25rem;
+    margin: 2rem;
+}
+
+.game-sprite img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+/*Dropdown List*/
+.dropdown-container{
+    height: 1.8rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background: #C69C6D;
+}
+
+.dropdown-container:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.show-options{
+    height: 10rem;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: inherit;
+    background: #C69C6D;
+    border-radius: 0.5rem;
+}
+
+.option-on{
+    height: 1.2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+    background: #e4c8a8;
+    border: 0.1rem solid rgb(70, 69, 69);
+}
+
+.option-on:hover{
+    background-color: rgb(243, 243, 243);
+}

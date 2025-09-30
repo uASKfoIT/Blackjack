@@ -1,0 +1,63 @@
+.navigation-container{
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    background: linear-gradient(to bottom, #ff0000, #000000);
+    border-radius: 0.5rem;
+}
+
+/*Game Title*/
+.game-title-container{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/*Space Holder*/
+.space-holder{
+    width: 65rem;
+}
+
+/*Account Icon*/
+.account-container{
+    height: 1.5rem;
+    width: 5rem;
+    display: flex;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: white;
+    border: 0.15rem solid black;
+}
+
+.text-container{
+    height: inherit;
+    width: 3.5rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.image-container{
+    height: inherit;
+    width: 1rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
