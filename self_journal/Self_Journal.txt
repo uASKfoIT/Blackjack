@@ -1,0 +1,53 @@
+Self Journal: (September 30, 2025)
+
+*Project:
+	:Good
+		-I managed to separate concepts into their own isolated files, making it much easier to stay organize and make changes. 
+		
+		-Less redundant code BUT still more progress to be made. 
+
+	:Bad
+		-bad naming in function. 
+		-design phase: how classes and functions should interact with each other
+		-longer than expected time to complete the project 
+		
+	:Self Reflection
+		-In this second attempt at blackjack, i was able to place concepts into their own isolated file. This allowed me to keep the main file simple and clean. 
+
+		-Design Phase: While I have made a large progress as compared to last project. Design phase is an essential part of the project. Failing to create a good design makes it much more difficult to code as there is no direction on where the project is going. 
+	
+	:What can be done better?
+		-Better schedule, days where they are just used just for design and implementation. 
+		-Better understanding at the design phase, a good design phase leads to faster code creation. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*Other (Self notes)
+	:Full Stack / CS Concepts (Books)
+		-During this time period of September 2025, outside the dedicated 4hours of project development was used to read books regarding full stack concepts. These concepts were Book #1: Full Stack React by Anthony Accomazzo. Book #2: Web Development with Node & Express by Ethan Brown. Book #3: Designing Data Intensive Application by Martin Kleppmann. Book #4: C++ Algorithms 
+
+		-An issue with these concepts was not the content but rather the amount of content that was consumed during the 1-month period. We'll first take into account that my current schedule only allows for a 4 day a week study period. Knowing this splitting the time between full stack development and reading book became a challenge. For example, in a week only 4 hours were dedicated to each topic. The schedule is as follows day 1: covered react and node for 4H day 2: covered DDIA and Algorithms for 4 hours day 3: day 1, day 4: day 2. 
+
+		-What I noticed that while I covered and learned essential concepts only 2 chapters where covered from each books taking based on the fule "Quality over quantity". This is not somewhere I wish to be at in the regard of goals. 
+
+
+*What will be done in Oct 2025
+	-After reflecting the schedule issues and noting how long it would take me to accomplish a project. A schedule change was made. Where ideas will be split into a period of weeks. Week 1: will be used to build a slot machine project. Week 2 & 3: Will be used to cover book concepts allowing large time blocks to cover more information thus leading to making a larger progress in finishing the books, as I wish to move on to other concepts that will strengthen my understanding in software applications. Week 4: Will be used to build a simple full stack project using just react and node.js/express with an database. 
+
+	-Project 1: Slot Machine -> raw html,css,js 
+	-Project 2: Simple App -> Cover frameworks in front end and back end (react & node.js/express) with an external database being MongoDB or ?
