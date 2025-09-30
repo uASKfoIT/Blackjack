@@ -1,0 +1,83 @@
+
+__STATES___
+*Load Game
+	-Generate shoe & visual deck
+	-initialize player balance based on 'user status'
+	-initialize UI elements
+		-balance
+		-scoreboard
+		-shoe deck
+		-betting chips
+	-initialize betting chips actions & listeners
+	-initialize button event listeners
+
+
+*Placing Bet 
+	-UI:
+		-display buttons 
+		-display bet spot  
+	-Logic:
+		-Handle by 'events'
+*Playing 
+	-UI: 
+		-hide betting chips
+		-change buttons names & actions
+		-display double down button
+	-Logic:
+		-Handle by 'events'
+*Game Over 
+	-UI: 
+		-hide gameboard
+		-display game results screen
+		-display game over menu selection
+	-Logic:
+		-handleGameOver()
+*Next Hand 
+	-UI:
+		-remove previous buttons from screen
+		-remove player/dealer cards from screen
+		-remove bet spot & reset values 
+		-display betting chips based on working balance
+		-player balance $
+		-score board
+
+	-Logic:
+		-reset bet
+			-reset player bet : 0
+			-reset player chips []
+
+		-reset player hands
+			-player hands []
+			-dealer hands []
+	
+		-reset previous state (only used during checking)
+
+*New Game 
+	-UI:
+		-remove previous buttons from screen
+		-remove player/dealer cards from screen
+		-remove bet spot & reset values 
+		-display betting chips based on working balance
+		-player balance $
+		-score board
+
+	-Logic:
+		-reset everything expect balance
+			-player hands []
+			-player chips []
+			-score boards 0
+			-shoe deck []
+ 			-visual deck []
+			-previous state ""
+			-player bet 0
+
+
+*Checking ('pause')
+	Note: used for check player hands & animation
+
+	-UI:
+		-disable buttons
+
+
+
+
